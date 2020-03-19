@@ -4,6 +4,8 @@
 ## Usage:
 Both programs can read files from STDIN and write to STDOUT, e.g.
 
-`python3 sud2sat.py < input.txt > output.cnf`
-`minisat output.cnf solution.txt > stat.txt`
-`python3 sat2sud.py < solution.txt > solved_puzzle.txt`
+`python3 sud2sat.py < input.txt > output.cnf
+
+minisat output.cnf solution.txt > stat.txt
+
+python3 sat2sud.py < solution.txt > solved_puzzle.txt`
