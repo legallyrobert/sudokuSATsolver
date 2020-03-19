@@ -1,8 +1,9 @@
 # TODO for SAT Solver Sudoku Project
 
-## sud2sat:
-	DONE!
+- confirm sudoku output is actually solved (lmao)
 
-## sat2sud:
-1. Check if solution is UNSAT or SAT
-2. Convert solution to sudoku grid
+- make python programs executable, a la `./sud2sat`
+
+- write report
+
+- b.s. automated testing
