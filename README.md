@@ -1,5 +1,5 @@
 # SAT Sudoku Solver
-### CSC320 Spring 2020; Rob Wood V00888252 and Liam Franke V00......
+### CSC320 Spring 2020; Rob Wood V00888252 and Liam Franke V00887604
 
 ## Usage:
 Both programs can read files from STDIN and write to STDOUT, e.g.
@@ -13,8 +13,6 @@ Both programs can read files from STDIN and write to STDOUT, e.g.
 # TODO for SAT Solver Sudoku Project
 
 - confirm sudoku output is actually solved (lmao)
-
-- make python programs executable, a la `./sud2sat`
 
 - write report
 
