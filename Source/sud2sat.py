@@ -27,8 +27,8 @@ def write(table):
 	count += clause_1(stream, table)
 	count += clause_2(stream)
 	count += clause_3(stream) # very questionable...
-	count += clause_4(stream) # also very questionable...
-	count += clause_5(stream) # very questionable. Won't count properly.
+	count += clause_4(stream) # but seems to work... don't question it again.
+	count += clause_5(stream)
 
 	sys.stdout.write("p cnf 729 %d\n" % count)
 	sys.stdout.write(stream.getvalue())
