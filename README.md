@@ -16,11 +16,18 @@ Both python3 programs read files from STDIN and write to STDOUT, e.g.
 
 `./sat2sud.py < solution.txt > solved_puzzle.txt`
 
-Note: `chmod +x` is needed to make file executable. Otherwise, `python3 ssat2sud.py|sud2sat.py` will suffice.
+Note: `chmod +x` is needed to make file executable. Otherwise, `python3 sat2sud.py|sud2sat.py` will suffice.
 
 ### To Test:
-Test file `test.py` takes a solved `.txt` sudoku puzzle as input, i.e. `solved_puzzle.txt` as created above, e.g.
+Test file `test.py` takes a solved `.txt` sudoku puzzle as input (i.e. `solved_puzzle.txt` as created above)
 
-`./test.py solved_puzzle.txt`
+e.g. `./test.py solved_puzzle.txt`
 
-Bash script `all_tests.sh` requires no input, though is dependant on this directory structure. Produced output is of the form "test-n failed/passed num_clauses cpu_time :)". Smiley face serves no informational purpose and is for emotional support only.
+`test.py` assumes that it is testing a *correct* puzzle solution. Under such an assumption, each row and column of the 9x9 grid will sum to 45. If this is not the case, the puzzle was solved incorrectly and the program will *not* output. Otherwise, `test.py`  will send "true" to STDOUT.
+
+Bash script `all_tests.sh` requires no input, though is dependant on this directory structure and specifically output from `test.py` for puzzle verification. Produced output will be of the form
+
+`test-nn.txt passed    Number of clauses: #### CPU time : 0.xxx s   :)`
+`test-nn.txt failed`
+
+Note: smiley face ":)" serves no informational purpose and is for emotional support only.
