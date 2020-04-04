@@ -4,7 +4,7 @@
 ## Contents
 Directory `Source` contains executable Python files `sud2sat.py` and `sat2sud.py`. File `util.py`, also in `Source`, was created for code readability.
 
-Directory `Test` contains unsolved `.txt` sudoku puzzles curled from `projecteuler.net/project/resources/p096_sudoku.txt`. Inside 
+Directory `Test` contains `all_tests.sh` and dependency `test.py`. Subdirectory `tests` contains 50 unique, unsolved sudoku puzzles curled and separated from the collection at `projecteuler.net/project/resources/p096_sudoku.txt`.
 
 ## Usage:
 ### To Solve:
