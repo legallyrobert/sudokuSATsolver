@@ -2,7 +2,7 @@
 ### CSC320 Spring 2020; Rob Wood V00888252 and Liam Franke V00887604
 
 ## Contents
-Directory `Source` contains executable Python files `sud2sat.py` and `sat2sud.py`. File `util.py`, also in `Source`, was created for code readability.
+Directory `Source` contains executable Python files `sud2sat.py` and `sat2sud.py`. Dependency `util.py`, also in `Source`, was created for code readability.
 
 Directory `Test` contains `all_tests.sh` and dependency `test.py`. Subdirectory `tests` contains 50 unique, unsolved sudoku puzzles curled and separated from the collection at `projecteuler.net/project/resources/p096_sudoku.txt`.
 
