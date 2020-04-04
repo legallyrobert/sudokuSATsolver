@@ -28,6 +28,7 @@ e.g. `./test.py solved_puzzle.txt`
 Bash script `all_tests.sh` requires no input, though is dependant on this directory structure and specifically output from `test.py` for puzzle verification. Produced output will be of the form
 
 `test-nn.txt passed    Number of clauses: #### CPU time : 0.xxx s   :)`
+or
 `test-nn.txt failed`
 
-Note: smiley face ":)" serves no informational purpose and is for emotional support only.
+Note: " :) " serves no informational purpose and is for emotional support only.
