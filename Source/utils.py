@@ -1,6 +1,17 @@
+#!/usr/bin/python3
+
 # convert base 10 to base 9
 def swap_bases(i, j, k):
 	return 81*(i-1)+9*(j-1)+(k-1)+1
+
+def convert(A):
+	for x in range(9):
+		for y in range(9):
+			for z in range(9):
+				if (A[81*x+9*y+z] >= 0):
+					print(z+1, end='')
+					break;
+		print()
 
 # clause 1: single-variable clause
 def clause_1(buf, table):

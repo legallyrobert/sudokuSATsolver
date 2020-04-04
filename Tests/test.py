@@ -1,6 +1,6 @@
+#!/usr/bin/python3
+
 import sys
-import io
-from utils import *
 
 def check_cols(cols):
     for line in cols:
@@ -25,8 +25,10 @@ def check_rows(rows):
 def main():
     with open(sys.argv[1], 'r') as f:
         L = [line.strip() for line in f]
+
     rows = L
     cols = zip(*L)
+
     if check_rows(rows) and check_cols(cols):
         print("true")
     
