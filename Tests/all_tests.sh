@@ -10,6 +10,6 @@ for f in $(ls tests); do
     if [[ $val == "true" ]]; then
         echo -e "$f passed!\t$time\t:)"
     else
-        echo "$f failed :("
+        echo "$f failed"
     fi
 done
