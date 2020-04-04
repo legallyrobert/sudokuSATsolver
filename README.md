@@ -16,7 +16,7 @@ Both python3 programs read files from STDIN and write to STDOUT, e.g.
 
 `./sat2sud.py < solution.txt > solved_puzzle.txt`
 
-Note: `chmod +x` is needed to make file executable. Otherwise, `python3 sat2sud.py|sud2sat.py` will suffice.
+Note: `chmod +x` is needed to make file executable. Otherwise, `python3 [filename.py]` will suffice.
 
 ### To Test:
 Test file `test.py` takes a solved `.txt` sudoku puzzle as input (i.e. `solved_puzzle.txt` as created above)
